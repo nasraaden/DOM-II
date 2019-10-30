@@ -97,7 +97,7 @@ stopNav.addEventListener('click', (event) => {
     event.preventDefault();
   })
 
-  //stopPropagation
+  //stopPropagation for body
 
 const parent = document.querySelector('body');
 parent.addEventListener('click', () => {
